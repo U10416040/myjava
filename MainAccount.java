@@ -11,7 +11,8 @@ public class MainAccount {
 		acc1=new Account(1122, 1000, "George");//create Account object		
 		
 		//transactions
-		acc1.withdraw(30);
+		//acc1.withdraw(30);
+		acc1.withdraw(10);
 		acc1.withdraw(40);
 		acc1.withdraw(50);
 		acc1.deposit(5);
